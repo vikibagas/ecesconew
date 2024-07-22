@@ -44,12 +44,12 @@
       <nav class="navbar navbar-light">
          <div class="navbar-left">
             <div class="logo-area">
-               <a class="navbar-brand" href="">
-                  <img class="light" src="../img/logo cesco menyamping dark.png" alt="logo">
-                  <img class="dark" src="../img/logo cesco menyamping.png"  alt="logo">
+               <a class="navbar-brand" href="{{route('dashboard')}}">
+                  <img class="light" src="{{URL('img/logo cesco menyamping dark.png')}}" alt="logo">
+                  <img class="dark" src="{{URL('img/logo cesco menyamping.png')}}"  alt="logo">
                </a>
                <a href="#" class="sidebar-toggle">
-                  <img class="svg" src="../img/svg/align-center-alt.svg" alt="img"></a>
+                  <img class="svg" src="{{URL('img/svg/align-center-alt.svg')}}" alt="img"></a>
             </div>
         
          </div>
@@ -76,9 +76,9 @@
                      <a href="javascript:;" class="nav-item-toggle"><img src="../img/flag.png" alt="" class="rounded-circle"></a>
                      <div class="dropdown-parent-wrapper">
                         <div class="dropdown-wrapper dropdown-wrapper--small">
-                           <a href=""><img src="../img/eng.png" alt=""> English</a>
+                           <a href=""><img src="{{URL('/img/eng.png')}}"" alt=""> English</a>
                         
-                           <a href=""><img src="../img/iraq.png" alt=""> Indonesia</a>
+                           <a href=""><img src="{{URL('/img/iraq.png')}}"" alt=""> Indonesia</a>
                         </div>
                      </div>
 
@@ -88,14 +88,14 @@
                <!-- ends: .nav-flag-select -->
                <li class="nav-author">
                   <div class="dropdown-custom">
-                     <a href="javascript:;" class="nav-item-toggle"><img src="../img/author-nav.jpg" alt="" class="rounded-circle">
+                     <a href="javascript:;" class="nav-item-toggle"><img src="{{URL('img/author-nav.jpg')}}"" alt="" class="rounded-circle">
                         <span class="nav-item__title">Vicky<i class="las la-angle-down nav-item__arrow"></i></span>
                      </a>
                      <div class="dropdown-parent-wrapper">
                         <div class="dropdown-wrapper">
                            <div class="nav-author__info">
                               <div class="author-img">
-                                 <img src="../img/author-nav.jpg" alt="" class="rounded-circle">
+                                 <img src="{{URL('img/author-nav.jpg')}}" alt="" class="rounded-circle">
                               </div>
                               <div>
                                  <h6>Vicky</h6>

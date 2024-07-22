@@ -23,7 +23,7 @@ Route::group(['middleware' => ['auth']], function () {
     //Route::get('/dashboard',DashboardPage::class);
     //MAIL
 
-    Route::get('/dashboard', [DashboardController::class, 'index']);
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
     Route::get('/inbox', function () {
         return view('content.mail');

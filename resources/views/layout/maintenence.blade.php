@@ -12,7 +12,7 @@
                <div class="col-12">
                   <div class="min-vh-40 content-center">
                      <div class="maintenance-page text-center">
-                        <img src="../img/svg/maintenance.svg" alt="maintenance" class="svg" />
+                        <img src="{{URL('img/svg/maintenance.svg')}}" alt="maintenance" class="svg" />
                         <h5 class="maintenance-page__title">We are currently performing maintenance</h5>
                         <p class="fw-500">We're making the system more awesome.We'll be back shortly.</p>
                      </div>

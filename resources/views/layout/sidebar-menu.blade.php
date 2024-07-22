@@ -3,7 +3,7 @@
             <div class="sidebar__menu-group">
                <ul class="sidebar_nav">
                   <li >
-                     <a   class="nav-link  {{Route::is('dashboard' ? 'active' : '') }} " href="/dashboard"    >
+                     <a   class="nav-link  {{Route::is('dashboard' ? 'active' : '') }} " href="{{route('dashboard')}}"    >
                         <span class="nav-icon uil uil-create-dashboard"></span>
                         <span class="menu-text">Dashboard</span>
                      </a>
